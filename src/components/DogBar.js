@@ -18,13 +18,8 @@ function DogBar({ dogs, onClickDog }){
     }
 
     return (
-        <div>
-            <div id="filter-div">
-                <button id="good-dog-filter">Filter good dogs: OFF</button>
-            </div>
-            <div id="dog-bar">
-                {displayedDogs}
-            </div>
+        <div id="dog-bar">
+            {displayedDogs}
         </div>
     ) 
 }
